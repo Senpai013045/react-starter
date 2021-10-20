@@ -1,0 +1,50 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: var(--indigo);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.button:disabled:hover {
+  opacity: 0.5;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+.solid-primary {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--white);
+}
+.solid-secondary {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+.line-primary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: var(--white);
+}
+.light-secondary {
+  background-color: var(--white);
+  border: 1px solid var(--secondary);
+}
+
+.line {
+  border: none;
+  color: var(--indigo);
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid var(--indigo);
+  box-shadow: none;
+  padding-bottom: 2px;
+}
